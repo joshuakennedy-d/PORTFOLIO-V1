@@ -48,4 +48,4 @@ The page will reload if you make edits.
 
 ### Show your support
 
-<a href="https://www.buymeacoffee.com/checkoutjof"><img src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="checkoutjof" data-color="#FFDD00" data-emoji="🍕" data-font="Poppins" data-text="Buy me a pizza" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" /></a>
+<a href="https://www.buymeacoffee.com/checkoutjof" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
