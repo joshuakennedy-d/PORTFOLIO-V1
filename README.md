@@ -6,9 +6,9 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/joshuakennedy-d/portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/joshuakennedy-d/PORTFOLIO-V1/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/joshuakennedy-d/portfolio/issues">Request Feature</a>
+    <a href="https://github.com/joshuakennedy-d/PORTFOLIO-V1/issues">Request Feature</a>
 </h3>
 
 
