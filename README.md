@@ -1,13 +1,7 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="host link" target="_blank">soumyajit.tech</a>
+  <a href="host link" target="_blank">joshua.tech</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-
-<br/>
-
 
 
 <h3 align="center">
@@ -56,4 +50,4 @@ The page will reload if you make edits.
 
 Give a ⭐ if you like this website!
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<a href="https://www.buymeacoffee.com/checkoutjof"><img src="https://img.buymeacoffee.com/button-api/?text=SUPPORT ME&emoji=❤️&slug=checkoutjof&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" /></a>
