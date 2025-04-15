@@ -310,7 +310,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .myAvtar {
+  .img-fluid {
     width: 50px !important; /* Adjust the width */
     height: 50px !important; /* Adjust the height */
     padding-top: 1em !important; /* Adjust padding if needed */
