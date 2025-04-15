@@ -309,10 +309,10 @@ button:focus {
   padding-top: 9em !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .myAvtar {
-    width: 100ox !important; /* Adjust the width */
-    height: 100px !important; /* Adjust the height */
+    width: 50px !important; /* Adjust the width */
+    height: 50px !important; /* Adjust the height */
     padding-top: 1em !important; /* Adjust padding if needed */
   }
 }
