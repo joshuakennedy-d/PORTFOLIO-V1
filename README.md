@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="host link" target="_blank">joshua.tech</a>
+  <a href="https://joshuakennedy.vercel.app/" target="_blank">Click Here</a>
 </h2>
 
 
