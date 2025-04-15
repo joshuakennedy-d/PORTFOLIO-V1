@@ -23,10 +23,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Marksheet Scraper"
+              description="A python based standalone web scraper designed for for multiple students marks details scraping at once. This scraper is specifically designed to scrape student marks from Madras University Website"
+              ghLink="https://github.com/joshuakennedy-d/MARKSHEET-SCRAPER"
             />
           </Col>
 

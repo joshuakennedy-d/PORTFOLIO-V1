@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork, CgSoftwareDownload } from "react-icons/cg";
+import { CgSoftwareDownload } from "react-icons/cg";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -117,13 +117,7 @@ function NavBar() {
               </Button>
             </Nav.Item>
             <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/joshuakennedy-d/PORTFOLIO-V1"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-              </Button>
+              
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
