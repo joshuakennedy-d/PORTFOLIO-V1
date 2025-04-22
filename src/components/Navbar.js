@@ -16,12 +16,15 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
+  const [showLogo, setShowLogo] = useState(false); // State to toggle logo visibility
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
+      setShowLogo(true); // Show logo when scrolled
     } else {
       updateNavbar(false);
+      setShowLogo(false); // Hide logo when at the top
     }
   }
 
@@ -50,7 +53,12 @@ function NavBar() {
     };
   }, []);
 
-  window.addEventListener("scroll", scrollHandler);
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => {
+      window.removeEventListener("scroll", scrollHandler);
+    };
+  }, []);
 
   return (
     <Navbar
@@ -61,8 +69,13 @@ function NavBar() {
         isHidden ? "hidden" : ""
       }`}
     >
-      <Container>
-        <Navbar.Brand href="/" className="d-flex">
+      <Container
+        className={`navbar-container ${showLogo ? "align-left" : "align-center"}`}
+      >
+        <Navbar.Brand
+          href="/"
+          className={`d-flex ${showLogo ? "show-logo" : "hide-logo"}`}
+        >
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -82,42 +95,29 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item className="fork-btn">
               <Button
                 href="/Resume_Joshua_Kennedy.pdf"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgSoftwareDownload style={{ fontSize: "1.2em" }} />{" "}
-                {" RESUME"}
+                <CgSoftwareDownload style={{ fontSize: "1.2em" }} /> {" RESUME"}
               </Button>
-            </Nav.Item>
-            <Nav.Item className="fork-btn">
-              
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
